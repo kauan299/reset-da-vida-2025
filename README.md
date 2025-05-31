@@ -1,41 +1,121 @@
-# Next.js on Netlify Platform Starter
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reset da Vida em 7 Dias</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h1, h2, h3 {
+      color: #1a1a1a;
+    }
+    .button {
+      display: inline-block;
+      background-color: #22c55e;
+      color: white;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      margin-top: 1.5rem;
+    }
+    .testimonial {
+      background-color: #fff;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-left: 5px solid #22c55e;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Reset da Vida em 7 Dias</h1>
+    <h2>Assuma o Controle do Seu Dinheiro, da Sua Mente e do Seu Corpo em Apenas 1 Semana</h2><div class="section">
+  <p>Você sente que está travado, sem energia, sem dinheiro e sem direção? Esse e-book é o seu ponto de virada.</p>
+</div>
 
-[Live Demo](https://nextjs-platform-starter.netlify.app/)
+<div class="section">
+  <h3>O que é o “Reset da Vida em 7 Dias”?</h3>
+  <p>É um e-book direto ao ponto, feito para quem quer reorganizar a vida com praticidade. Você vai aprender a:</p>
+  <ul>
+    <li>Limpar a mente e eliminar bloqueios</li>
+    <li>Retomar o controle do corpo e bem-estar</li>
+    <li>Organizar suas finanças pessoais mesmo ganhando pouco</li>
+    <li>Criar uma rotina de crescimento com propósito</li>
+  </ul>
+</div>
 
-A modern starter based on Next.js 14 (App Router), Tailwind, and [Netlify Core Primitives](https://docs.netlify.com/core/overview/#develop) (Edge Functions, Image CDN, Blob Store).
+<div class="section">
+  <h3>Pra quem é?</h3>
+  <ul>
+    <li>Quem está cansado de promessas vazias</li>
+    <li>Quem quer mudança real, mas não sabe por onde começar</li>
+    <li>Quem tem pouco tempo ou dinheiro, mas quer evoluir</li>
+  </ul>
+</div>
 
-In this site, Netlify Core Primitives are used both implictly for running Next.js features (e.g. Route Handlers, image optimization via `next/image`, and more) and also explicitly by the user code.
+<div class="section">
+  <h3>O que você vai encontrar:</h3>
+  <ul>
+    <li>Dia 1: Reset Mental</li>
+    <li>Dia 2: Corpo em Movimento</li>
+    <li>Dia 3: Desintoxicação Digital</li>
+    <li>Dia 4: Organização Financeira</li>
+    <li>Dia 5: Criando Fontes de Renda</li>
+    <li>Dia 6: Energia e Disciplina</li>
+    <li>Dia 7: Plano de Vida</li>
+  </ul>
+</div>
 
-Implicit usage means you're using any Next.js functionality and everything "just works" when deployed - all the plumbing is done for you. Explicit usage is framework-agnostic and typically provides more features than what Next.js exposes.
+<div class="section">
+  <h3>Diferenciais</h3>
+  <ul>
+    <li>Linguagem simples, direta e jovem</li>
+    <li>Sem enrolação, com ações práticas</li>
+    <li>Leitura rápida e aplicação em 7 dias</li>
+    <li>Preço acessível pra qualquer bolso</li>
+  </ul>
+</div>
 
-## Deploying to Netlify
+<div class="section">
+  <h3>Depoimentos</h3>
+  <div class="testimonial">
+    <p>“Comecei a aplicar no primeiro dia e já senti a diferença. Mudou minha rotina!”<br><strong>– Larissa M., 19 anos</strong></p>
+  </div>
+  <div class="testimonial">
+    <p>“Simplesmente o melhor conteúdo prático que já li. Vale muito mais do que custa.”<br><strong>– João V., 23 anos</strong></p>
+  </div>
+</div>
 
-This site requires [Netlify Next Runtime v5](https://docs.netlify.com/frameworks/next-js/overview/) for full functionality. That version is now being gradually rolled out to all Netlify accounts.
+<div class="section">
+  <h3>Bônus</h3>
+  <ul>
+    <li>Acesso imediato após o pagamento</li>
+    <li>Suporte direto com o autor por e-mail</li>
+    <li>Leitura leve e objetiva</li>
+  </ul>
+</div>
 
-After deploying via the button below, please visit the **Site Overview** page for your new site to check whether it is already using the v5 runtime. If not, you'll be prompted to opt-in to to v5.
+<div class="section">
+  <h2>Pronto para mudar sua vida em 7 dias?</h2>
+  <p><strong>Garanta agora seu acesso por apenas R$19,90.</strong></p>
+  <a class="button" href="https://pay.kiwify.com.br/gfmkIZN" target="_blank">COMPRAR AGORA</a>
+</div>
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-platform-starter)
-
-## Developing Locally
-
-1. Clone this repository, then run `npm install` in its root directory.
-
-2. For the starter to have full functionality locally (e.g. edge functions, blob store), please ensure you have an up-to-date version of Netlify CLI. Run:
-
-```
-npm install netlify-cli@latest -g
-```
-
-3. Link your local repository to the deployed Netlify site. This will ensure you're using the same runtime version for both local development and your deployed site.
-
-```
-netlify link
-```
-
-4. Then, run the Next.js development server via Netlify CLI:
-
-```
-netlify dev
-```
-
-If your browser doesn't navigate to the site automatically, visit [localhost:8888](http://localhost:8888).
+  </div>
+</body>
+</html>
